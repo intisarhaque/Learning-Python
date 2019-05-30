@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="035813a3-e324-42b8-a2c9-9769906954c1" name="Default Changelist" comment="" />
+    <list default="true" id="035813a3-e324-42b8-a2c9-9769906954c1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dictionaries/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flow.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Flow.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dictionaries/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dictionaries/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dictionaries/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dictionaries/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dictionaries/dictionaries.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../dictionaries/dictionaries.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dictionaries/dictionaries.py" beforeDir="false" afterPath="$PROJECT_DIR$/../dictionaries/dictionaries.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lists/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lists/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lists/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lists/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lists/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lists/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lists/lists.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../lists/lists.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lists/lists.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lists/lists.py" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,12 +31,23 @@
     <option name="testRunner" value="GRADLE" />
     <option name="delegatedBuild" value="true" />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="2037730517">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/FlowCtrl.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
+            <state relative-caret-position="60">
               <caret line="4" column="31" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="31" />
             </state>
           </provider>
@@ -41,6 +67,9 @@
       <find>print</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -48,17 +77,17 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="953" />
-    <option name="width" value="974" />
-    <option name="height" value="1047" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="22" />
+    <option name="width" value="1440" />
+    <option name="height" value="878" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -71,13 +100,15 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -133,19 +164,19 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="22" width="1440" height="878" extended-state="6" />
     <layout>
       <window_info id="Capture Tool" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.29321662" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.19661734" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Python Console" />
       <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="1" />
-      <window_info anchor="bottom" id="Version Control" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="2" />
       <window_info anchor="bottom" id="Terminal" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
@@ -165,10 +196,13 @@
       <window_info anchor="right" id="Maven" order="8" />
     </layout>
   </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/FlowCtrl.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
+        <state relative-caret-position="60">
           <caret line="4" column="31" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="31" />
         </state>
       </provider>
