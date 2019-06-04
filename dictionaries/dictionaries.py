@@ -17,11 +17,11 @@ loc = 1
 while True:
     availableExits = ""
     print("You are at " + locations[loc] + "\nDirections available:")
-    for direction in exits[1].keys():
+    for direction in exits[loc].keys():
         print(direction,  end=' ')
         availableExits += direction
     print
-    direction = input("Where do you want to go?").upper()
+    direction = input("Where do you want to go?\t").upper()
     if direction == 'Q':
         break
     if direction in availableExits:
