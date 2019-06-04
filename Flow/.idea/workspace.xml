@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="035813a3-e324-42b8-a2c9-9769906954c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../DataStructBase/notes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataStructBase/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DataStructBase/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataStructBase/notes.py" beforeDir="false" afterPath="$PROJECT_DIR$/../DataStructBase/notes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../dictionaries/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dictionaries/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dictionaries/dictionaries.py" beforeDir="false" afterPath="$PROJECT_DIR$/../dictionaries/dictionaries.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
