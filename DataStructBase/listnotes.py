@@ -20,4 +20,21 @@ a.remove(3.5)
 print(a)
 a.pop()
 print(a)
-print("length of a is {}, number of 3 is {}".format(len(a)), a.count(3))
+a.extend([2])
+print("length of a is {0}, numbers of 2 is {1} ".format(len(a),a.count(2)))
+print(a)
+a.sort()
+print(a)
+a.sort(reverse=True)
+print(a)
+a += [1,4]
+print(a)
+b = [1,2,3,4,5]
+print(b)
+print(b[2:])
+print(b[:2])
+print(b[:-1])
+print(b[-3:])
+for i in b:
+    print("{} is the number now".format(i))
+

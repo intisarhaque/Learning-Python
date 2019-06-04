@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="3ad228b4-04e3-443d-b5ca-fa8fbcd01638" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../DataStructBase/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DataStructBase/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DataStructBase/notes.py" beforeDir="false" afterPath="$PROJECT_DIR$/../DataStructBase/notes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataStructBase/notes.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Flow/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Flow/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -89,9 +90,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="22" />
-    <option name="width" value="1440" />
-    <option name="height" value="878" />
+    <option name="y" value="147" />
+    <option name="width" value="1280" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
