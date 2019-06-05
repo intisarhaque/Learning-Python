@@ -1,6 +1,7 @@
 #lists In python, lists are part of the standard language. You will find them everywhere.
 # Like almost everything in Python, lists are objects. There are many methods associated to
 # them. Some of which are presented here below.
+#https://thomas-cokelaer.info/tutorials/python/data_structures.html
 
 a = [1,2,3]
 print(a)
