@@ -6,12 +6,26 @@ locations = {0: "GameOver",
              5: "ICHS"}
 
 #each direction gives us the key of the destination in the locations directory
-exits = [{"Q":0},
-         {"N":2, "Q":0},
-         {"W":3, "E":4, "S":1, "Q":0},
-         {"E":2, "Q":0},
-         {"N":5, "W":2, "Q":0},
-         {"S":4, "Q":0}]
+# exits = [{"Q":0},
+#          {"N":2, "Q":0},
+#          {"W":3, "E":4, "S":1, "Q":0},
+#          {"E":2, "Q":0},
+#          {"N":5, "W":2, "Q":0},
+#          {"S":4, "Q":0}]
+
+exits = {0: {"Q":0},
+         1: {"N":2, "Q":0},
+         2: {"W":3, "E":4, "S":1, "Q":0},
+         3: {"E":2, "Q":0},
+         4: {"N":5, "W":2, "Q":0},
+         5: {"S":4, "Q":0}}
+
+alias = {"Q":"Q", "QUIT":"Q",
+         "N":"N", "UP":"N", "NORTH":"N",
+         "S": "S", "DOWN": "S", "SOUTH": "S",
+         "E": "E", "RIGHT": "E", "EAST": "E",
+         "W": "W", "LEFT": "W", "WEST": "W"}
+
 
 loc = 1
 while True:
@@ -20,20 +34,24 @@ while True:
     for direction in exits[loc].keys():
         print(direction,  end=' ')
         availableExits += direction
-    print
-    direction = input("Where do you want to go?\t").upper()
+
+    theirdirection = input("Where do you want to go?\t").upper()
+    word = theirdirection.split()
+    for w in word:
+        error = True
+        if w in alias:
+            direction = alias[w]
+            print(direction)
+            error = False
+    if error == True:
+        print("Invalid type")
+        continue
     if direction == 'Q':
         break
     if direction in availableExits:
         loc = exits[loc][direction]
     else:
-        print("Route closed")
-
-
-
-
-
-
+        print("Unavailable route")
 
 
 
