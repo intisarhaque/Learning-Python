@@ -18,4 +18,9 @@
 #  12 times 2 is 24
 #  --------------------
 
+with open("sample.txt", 'a') as jobber:
 
+    for i in range(2,13):
+        for j in range (1,13):
+            print("{:>2} times {} is {}".format(j, i, j*i), file=jobber)
+        print("-"*12, file=jobber)
