@@ -49,24 +49,23 @@
 # print(lines)
 # for line in lines:
 #     print(line, end = '')
-
+#
 # for line in lines[::-1]:
 #     print(line, end='')
+#
+#
+with open("sample.txt", 'r') as jogger:
+    for line in jogger:
+        print(line, end = '')
+        #print(line)
 
 
-# with open("sample.txt", 'r') as jogger:
-#     for line in jogger:
-#         print(line, end = '')
-#         #print(line)
 
-
-
-
-#jobber = open("/Users/intisaruihaque/Documents/Learning-Python/EyeOh/sample.txt", 'r')
+#
+# jobber = open("/Users/arsen/Documents/Learning-Python/EyeOh/sample.txt", 'r')
 # jobber = open("sample.txt", 'r')
 # for line in jobber:
-#     if "and" in line.lower():
-#         print(line)
+#     if "jabberwock" in line.lower():
+#         print(line, end = '')
 #
 # jobber.close()
-

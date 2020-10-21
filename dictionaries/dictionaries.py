@@ -66,7 +66,7 @@
 # newString = " mississipi,  ".join(myList)
 # print(newString)
 #
-
+#
 
 
 
@@ -117,7 +117,7 @@
 #          {"N":5, "W":2, "Q":0},
 #          {"S":4, "Q":0}]
 
-
+#
 # myList = ["a", "b", "c"]
 # newString = ",  ".join(myList)
 # print(newString)
